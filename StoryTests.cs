@@ -168,31 +168,6 @@ namespace StorySpoiler
             Assert.That(jsonResponse.Msg, Is.EqualTo("Unable to delete this story spoiler!"), "Expected response message to indicate that the Story Spoiler could not be deleted.");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         [OneTimeTearDown]
         public void Cleanup()
         {
